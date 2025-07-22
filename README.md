@@ -114,6 +114,7 @@ spring.data.mongodb.host   = <HOST>
 spring.data.mongodb.port   = 27017
 spring.data.mongodb.database = customerdb
 ```
+Also, add MongoDB server url in src/main/java/com/example/customermanagement/config/MongoConfig.java file.
 
 ### Connection-Pool Tuning (already set)
 
