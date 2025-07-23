@@ -21,7 +21,7 @@ import java.util.Collections;
 public class MongoConfig extends AbstractMongoClientConfiguration {
 
     // Hardcoded MongoDB connection settings
-    private static final String MONGODB_HOST = "ec2-34-220-16-36.us-west-2.compute.amazonaws.com"; // Replace with your actual MongoDB IP
+    private static final String MONGODB_HOST = "localhost"; // Replace with your actual MongoDB IP
     private static final int MONGODB_PORT = 27017;
     private static final String MONGODB_DATABASE = "customerdb";
 
